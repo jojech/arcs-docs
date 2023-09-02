@@ -1,16 +1,5 @@
-# Nextra Docs Template 
-
-This is a template for creating documentation with [Nextra](https://nextra.site).
-
-[**Live Demo →**](https://nextra-docs-template.vercel.app)
-
-[![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
-
-## Quick Start
-
-Click the button to clone this repository and deploy it on Vercel:
-
-[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra-docs-template&showOptionalTeamCreation=false)
+# Welcome to the Law of Arcs
+If you would like to make a correction or add a page, feel free to open a pull request with your changes! I'll make a list of any of the contributors on the site!
 
 ## Local Development
 

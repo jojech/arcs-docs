@@ -1,15 +1,57 @@
 {
   "index": "Introduction",
+  "inthebox": "What's in the Box",
+  "___": {
+    "type": "separator"
+  },
+  "campaign_intro": "Intro to Campaign",
   "another": "Another Page",
   "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
-    "type": "page"
+  "diaries": {
+    "title": "Design Diaries",
+    "type": "menu",
+    "items": {
+      "1": {
+        "title": "1: What's All This, Then?",
+        "href": "https://ledergames.com/blogs/news/arcs-designer-diary-1-whats-all-this-then",
+        "newWindow": true
+      },
+      "2": {
+        "title": "2: Interventions and Origins",
+        "href": "https://ledergames.com/blogs/news/arcs-designer-diary-2-interventions-and-origins",
+        "newWindow": true
+      },
+      "3": {
+        "title": "3: The Trick's the Thing",
+        "href": "https://ledergames.com/blogs/news/arcs-designer-diary-3-the-trick-s-the-thing",
+        "newWindow": true
+      },
+      "4": {
+        "title": "4: Two Types of Time in Arcs",
+        "href": "https://ledergames.com/blogs/news/arcs-designer-diary-4-two-types-of-time-in-arcs",
+        "newWindow": true
+      },
+      "5": {
+        "title": "5: Becoming Asymmetric",
+        "href": "https://ledergames.com/blogs/news/arcs-designer-diary-5-becoming-asymmetric",
+        "newWindow": true
+      },
+      "6": {
+        "title": "6: Meeting the Enemy",
+        "href": "https://ledergames.com/blogs/news/arcs-designer-diary-6-meeting-the-enemy",
+        "newWindow": true
+      },
+      "7": {
+        "title": "7: The Product Split",
+        "href": "https://ledergames.com/blogs/news/arcs-designer-diary-7-the-product-split",
+        "newWindow": true
+      }
+    }
   },
-  "contact": {
-    "title": "Contact ↗",
+  "leder": {
+    "title": "Leder Games ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://ledergames.com/pages/about",
     "newWindow": true
   }
 }
