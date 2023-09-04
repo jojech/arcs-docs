@@ -5,8 +5,10 @@
     "type": "separator"
   },
   "campaign_intro": "Intro to Campaign",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
+  "contribute": {
+    "title": "How to Contribute",
+    "type": "page"
+  },
   "diaries": {
     "title": "Design Diaries",
     "type": "menu",
