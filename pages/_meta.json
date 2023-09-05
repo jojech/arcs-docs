@@ -1,6 +1,8 @@
 {
   "index": "Introduction",
-  "inthebox": "What's in the Box",
+  "core_concepts": "Core Concepts",
+  "playing_a_round": "Playing a Round",
+  "standard_actions": "Standard Actions",
   "___": {
     "type": "separator"
   },
