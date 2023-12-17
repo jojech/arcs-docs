@@ -1,8 +1,11 @@
 {
   "index": "Introduction",
   "core_concepts": "Core Concepts",
-  "playing_a_round": "Playing a Round",
+  "playing_a_round": "Playing a Chapter",
   "standard_actions": "Standard Actions",
+  "resources": "Resources",
+  "guild_cards": "Guild Cards",
+  "ending_a_chapter": "Ending A Chapter",
   "___": {
     "type": "separator"
   },

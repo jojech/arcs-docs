@@ -1,3 +1,5 @@
+import { SelfHitIcon, KeyIcon, InterceptIcon } from '../components/icons'
+
 # Standard Actions
 ## Tax (administration)
 Choose a Loyal city or choose a Rival city you control.
@@ -48,4 +50,41 @@ Resolve the card’s When Secured action if any, and then
 draw a card from the Court deck and place it in the Court.
 
 _Captives:_ Put agents you capture in the Captives box on your
-player board. They add to your Tyrant ambition (page 14).
+player board. They add to your [Tyrant ambition](contribute).
+
+## Battle (Aggression)
+1. **Choose Battle System**: Choose 1 system that has any Loyal ships.
+This is the battle system. These are your **attacking ships.**
+2. **Choose Defender**: Choose 1 Rival whose pieces are in the battle system.
+These are their **defending pieces.**
+3. **Collect Dice**: For each attacking ship, you may collect 1 assault, skirmish, or raid die.
+    - **Assault dice** damage the defender quickly at some cost to you.
+    - **Skirmish dice** damage the defender slowly but keep you safe.
+    - **Raid dice** steal stuff from the defender and might damage them but are risky.
+**Raid Dice Limit:** You can only collect raid dice if there defending buildings or if the defender has no Loyal buildings in any systems on the map.
+4. **Roll and Resolve Dice**: Roll the collected dice.
+You must resolve all rolled faces in this order:
+    1. Hit any of your **attacking ships** once per <SelfHitIcon />.
+    2. If you rolled any number of <InterceptIcon />, the defender **intercepts** you--hit any of your **attacking ships** once per fresh defending ship.
+    3. Hit any of their **defending ships** once per BLAST.
+    Once no defending ships remain, hit any of their defending buildings instead.
+    4. Hit any of their **defending buildings** once per BUILDING HIT.
+    5. Raid their **resources and cards** by spending <KeyIcon />, [if you have any attacking ships left](contribute).
+
+If you hit a fresh piece, it becomes **damaged**--tip it over if it's a ship or flip it over if it's a building.
+
+If you hit a damaged piece, it is **destroyed**--remove it.
+The attacker takes destroyed defending pieces as Trophies.
+The defender takes destroyed attacking pieces as Trophies.
+
+**Trophies:** Place pieces taken as Trophies in the Trophies box on the respective player board. These add to the [Warlord ambition](contribute).
+
+### Destroying Cities
+If you destroy a city--even outside battle!--do the following:
+1. **Provoke Outrage**. Discard all resources and Guild cards you have of that city's planet type, placing the cards in a face-up Court discard pile near the Court deck. Place an agent to cover the Outrage icon of that city's planet type on your player board--that resource is now **Outraged**.
+2. **Ransack the Court**. Secure any card that has **any number** of the defender's agents. Take all Rival agents on the card as **Trophies**, not captives.
+
+**Outrage**: You cannot spend Outraged resources for their normal [Prelude action](contribute).
+
+### Raiding
+If any attacking ships remain after taking hits, you may spend <InterceptIcon /> you rolled to steal resources and Guild cards from the defender, one at a time, by spending the number of <KeyIcon /> in its **raid cost**, shown above the resource slot on the player board or in the top-left corner of the [Guild card](contribute).
